@@ -38,15 +38,10 @@ img {
     max-width: 600px;
     padding: 20px;
     margin: auto;
-    overflow: scroll; 
+    overflow: scroll;
+    text-align: center; 
 }
 
-.portfolio-container {
-    padding-left: 1em;
-    padding-right: 1em;
-    width: 70%;
-    margin: 0 auto;
-  }
 
 /* ---- Page Elements ---- */
 
