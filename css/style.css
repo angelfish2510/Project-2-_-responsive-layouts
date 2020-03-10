@@ -2,6 +2,10 @@
   Base Element Styles
 ==================================== */
 
+* {
+	box-sizing: border-box;
+}
+
 body {
     font-family: 'Mallanna', sans-serif;
 }
@@ -28,9 +32,10 @@ img {
 
 /* ---- Layout Containers ---- */
 
-.port-sec {
-  
-
+.portfolio-container {
+    width: 90%;
+    height: 300px;
+    max-width: 600px;
 }
 
 .portfolio-container {
