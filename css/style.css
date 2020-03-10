@@ -30,6 +30,13 @@ body {
 
 }
 
+.portfolio-container {
+    padding-left: 1em;
+    padding-right: 1em;
+    width: 70%;
+    margin: 0 auto;
+  }
+
 /* ---- Page Elements ---- */
 
 .contact {
