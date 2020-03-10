@@ -6,6 +6,9 @@ body {
     font-family: 'Mallanna', sans-serif;
 }
 
+img {
+	max-width: 100%;
+}
 /* ================================= 
   Base Layout Styles
 ==================================== */
