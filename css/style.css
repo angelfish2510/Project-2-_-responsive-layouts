@@ -20,12 +20,9 @@ img {
 
 /* ---- Navigation ---- */
 
-.main-nav {
-
-}
-
-.nav {
-
+.name,
+.nav li {
+  disply: inline;
 
 }
 
