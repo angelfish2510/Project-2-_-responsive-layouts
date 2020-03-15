@@ -6,13 +6,49 @@
 	box-sizing: border-box;
 }
 
-body {
-    font-family: 'Mallanna', sans-serif;
+h1 {
+    font-size: 1.5rem;
+    /* line-height: 1.3; */
 }
 
-img {
-	max-width: 100%;
+ul {
+    list-style: none;
+    padding: 0;
 }
+
+body {
+    font-family: 'Mallanna', sans-serif;
+ 
+    /* padding-top: 120.8px; */
+    /* width: 70%;
+    margin: 0 auto; */
+}
+
+header,
+footer {
+  background-color: #F8F8F8;
+  width: 100%;
+}
+
+hr {
+  width: 95%;
+  color: #F5F5F5;
+}
+
+footer {
+  display: inline-block;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+/* img {
+	max-width: 100%;
+} */
+
+/* h1 {
+  margin-top: 0;
+} */
+
 /* ================================= 
   Base Layout Styles
 ==================================== */
@@ -20,22 +56,98 @@ img {
 
 /* ---- Navigation ---- */
 
-.name,
-.nav li {
-  disply: inline;
+/* .main-header,
+.main-footer {
+    /* position: fixed; */
+    /* width: 100%; */
+    /* background-color: #F8F8F8; */
+    /* padding: 1 em 0em; */
+/* } */
 
+
+
+
+.name a,
+.nav a {
+    padding: 5px 10px;
+    /* margin: 5px 10px; */
+    display: block;
+    text-decoration: none;
+    background-color: white;
+    color: black;
+    text-transform: uppercase;
+    font-weight: bold;
 }
 
+/* .main-nav {
+    /* position: relative; */
+    /* margin-top: 100px;
+} */
+
+/* .name {
+    margin: 0;
+} */
+
+.name,
+.nav li {
+  /* text-align: center; */
+  text-decoration: none;
+  /* margin-top: 6px; */
+  margin-bottom: 6px;
+  padding-left: 12px;
+  padding-right: 12px;
+}
+
+.nav {
+  margin-top: 13px;
+  padding-bottom: 5px;
+}
+
+.name {
+  margin: 0;
+  font-weight: bolder;
+  padding-bottom: 8px;
+  /* padding-top: 1em; */
+}
 
 /* ---- Layout Containers ---- */
 
-/* .container {
-  width: 70%;
-  margin: 0 auto;
-} */
+.intro {
+    /* background-color: blueviolet; */
+    margin-top: 0;
+    text-align: center;
+    color: grey;
+    background-color: #F8F8F8;
+    line-height: 1.2em;
+    padding-bottom: 20px;
+    /* margin: auto; */
+    /* display: inline; */
+}
+
+.intro p {
+  padding-top: 10px;
+  padding-left: 25px;
+  padding-right: 25px;
+}
+
+.container {
+    /* padding-left: 1em;
+    padding-right: 1em; */
+    margin: 0 auto;
+    /* text-align: auto; */
+}
+
+.port-head {
+  font-weight: bolder;
+  /* margin-top: 5px; */
+  padding-top: 40px;
+  padding-bottom: 25px;
+  margin: auto; */
+  line-height: 10em;
+}
 
 
-.portfolio-container {
+/* .portfolio-container {
     width: 90%;
     height: 300px;
     max-width: 600px;
@@ -43,17 +155,72 @@ img {
     margin: auto;
     overflow: scroll;
     text-align: center; 
+} */
+
+.contact {
+  background-color: #F8F8F8;
+  color: grey;
+  font-size: 1.1em;
+  line-height: 1.2em;
+  margin-bottom: 0;
+  padding: 45px 20px 12px 20px;
+  margin-top: 60px;
+  /* border-bottom: 1px solid grey; */
 }
 
-.port-head {
-  text-align: center;
+.callme {
+  padding-bottom: 10px;
 }
-
 
 /* ---- Page Elements ---- */
 
 .contact {
   text-align: center;
+}
+
+.main-header {
+    padding: 1em 0em;
+    text-align: center;
+}
+
+.profile-img {
+  width: 75%;
+  margin: auto;
+}
+
+.main {
+  background-color: white;
+  line-height: 1.2em;
+  text-align: center;
+  padding-left: 30px;
+  padding-right: 30px;
+  /* padding-top: 25px; */
+}
+
+.main img {
+  width: 100%;
+  padding-top: 15px;
+}
+
+.footername,
+.footerback {
+  font-weight: bolder;
+  margin: 8px;
+  padding-top: 10px;
+}
+
+.main-footer {
+  font-size: .9em;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.footername {
+  float: left;
+}
+
+.footerback {
+  float: right;
 }
 
 /* ---- Columns ---- */
@@ -64,7 +231,61 @@ img {
   Media Queries
 ==================================== */
 
+@media (min-width: 768px) {
+  p {
+    margin-top: 5px;
+    text-align: left;
+  }
+  
+  .wrap {
+    min-height: 100vh;
+  }
 
+  .profile-img {
+    max-width: 1000px;
+  }
+  
+  .container {
+        /* width: 70%;
+        max-width: 1000px; */
+        /* margin: 0 auto; */
+        /* background-color: white;
+        padding-top: 1em;
+        border-top: 1em; */
+    }
+
+    .name,
+    .nav,
+    .nav li {
+        display: inline-block;
+        text-decoration: none;
+    }
+
+    .name {
+        width: 240px;
+        margin-right: 50px;
+    }
+
+    .profile-img {
+        float: right;
+        margin-top: 3px;
+        margin-left: 50px;
+        margin-bottom: 25px;
+        padding-right: 40px;
+    }
+
+    .intro {
+      background-color: blueviolet;
+      margin-top: 25px;
+      padding-left: 40px;
+      /* margin: auto; */
+      /* display: inline; */
+  }
+
+  .port-head {
+    margin-top: 150px;
+  }
+}
 
 
 /* ---- Float clearfix ---- */

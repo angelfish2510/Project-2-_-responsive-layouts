@@ -8,33 +8,34 @@
   <link rel="stylesheet" href="css/style.css">
   </head>
   <body>
-
-    <header class="main-header">
-      <div class="container">
+    <div class="wrap">
+    <!-- <div class="container"> -->
+      <header class="main-header">
         <h1 class="name">Lisa H.</h1>
         <ul class="nav">
           <li><a href="#">Home</a></li>
           <li><a href="#">Portfolio</a></li>
           <li><a href="#">Contact</a></li>
         </ul>
-      </div>
-    </header>
+      </header>
       
-    <main>
       <div class="container">
-      <section class="port-sec">Hi!  I'm a front end developer who loves responsive deign and css.  I recently finished learning front-end web development at Treehouse and am excited to put all my skills to use!</section>
-        <img src="images/responsive-layout-profile.png">
-      </section>
+        <main>
+          <div class="intro">
+            <img class="profile-img" src="images/responsive-layout-profile.png">
+          <p>Hi!  I'm a front-end developer who loves responsive deign and css.  I recently finished learning front-end web development at Treehouse and am excited to put all my skills to use!</p>
+          </div>  <!-- container div -->
       
-      <div class="portfolio-container">
-          <h2 class="port-head">PORTFOLIO</h2>
+        <!-- <div class="portfolio-container"> -->
+        <div class="main">  
+          <h5 class="port-head">PORTFOLIO</h5>
             
             <img src="images/portfolio-1.png">
             <h3>Marketing Page</h3>  
-            <p>This project shows the front bage of a marketing website meant for specific business I'm interested in.</p>
+            <p></p>This project shows the front bage of a marketing website meant for specific business I'm interested in.</p>
 
             <img src="images/portfolio-2.png">
-            <h3>Search Page</h3>  
+            <h3>Search Page</h4>  
             <p>This project searches through a specific database to find information that the user is trying to look up.</p>
 
             <img src="images/portfolio-3.png">
@@ -52,28 +53,24 @@
             <img src="images/portfolio-6.png">
             <h3>Calculator</h3>  
             <p>Someone can enter in the numbers they want and press the big blue button and get the result.</p>
+        </div>  <!-- main div -->
 
-        </div>
-
-        <section class="contact">
-          <h4>CONTACT</h4>
-          <p>If you're interested in chatting or want more information about what I've been working on, I'd love to hear from you!</p>
+        <div class="contact">
+          <h5>CONTACT</h4>
+          <p class="callme">If you're interested in chatting or want more information about what I've been working on, I'd love to hear from you!</p>
           <p>Phone <strong>+1(111)555-1234</strong></p>
           <p>Email <a href="mailto:email@yoursite.com?subject=Let's%20 Chat!">email@yoursite.com</a></p>
+        </div>  <!-- contact div -->
+        </main>
+      <!-- </div> -->
+    </div>  <!-- wrap div -->
+      
+        <footer class="main-footer">
+          <hr>
+            <h4 class="footername">Lisa H.</h4>
+            <h4 class="footerback">BACK TO TOP</h4>
+        </footer>
 
-        </section>
-        </div>
-    </main>
-
-    <footer>
-      <h4>Lisa H.</h4>
-      <h4>BACK TO TOP</h4>
-      <!-- <ul>
-        <li><a href="https://twitter.com/AngelisaHerring" target="_blank" class="social twitter">Twitter</a></li>
-        <!-- <li><a href="#" class="social linkedin">LinkedIn</a></li> -->
-        <!-- <li><a href="https://github.com/angelfish2510/" target="_blank" class="social github">Github</a></li>
-      </ul>
-      <p class="copyright">Copyright 2019, Lisa Herring</p> --> -->
-    </footer>
+      </div>
   </body>
   </html>
