@@ -205,8 +205,8 @@ footer {
 .footername,
 .footerback {
   font-weight: bolder;
-  margin: 8px;
-  padding-top: 10px;
+  padding: 8px 10px 0px 10px;
+  margin: 2.5px;
 }
 
 .main-footer {
@@ -238,7 +238,7 @@ footer {
   }
   
   .wrap {
-    min-height: 100vh;
+    min-height: calc(100vh - 58.4px);
   }
 
   .profile-img {
@@ -287,6 +287,17 @@ footer {
   }
 }
 
+
+@media (min-width: 1024px) {
+
+  .name,
+  .nav,
+  .nav li {
+      display: inline-block;
+      text-decoration: none;
+  }
+
+}
 
 /* ---- Float clearfix ---- */
 
