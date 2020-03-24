@@ -328,8 +328,8 @@ footer {
     font-size: 1em;
     font-weight: heavy;
     color: black;
-
   }
+
   .port-head {
     margin-top: 10px;
     margin-bottom: 1px;
@@ -341,19 +341,18 @@ footer {
   overflow: auto;
   padding-top: 5px;
   padding-bottom: 5px;
-  
 }
 
-.main-left,
-.main-right {
-  font-size: 1.1em;
-  line-height: 1.1em;
-}
+  .main-left,
+  .main-right {
+    font-size: 1.1em;
+    line-height: 1.1em;
+  }
 
-.main-left img,
-.main-right img {
-  margin-top: 30px;
-}
+  .main-left img,
+  .main-right img {
+    margin-top: 30px;
+  }
 
   .main-left {
     float: left;
@@ -387,21 +386,47 @@ footer {
     visibility: hidden;
   }
   
-  .footerback-nav,
+  .footerback-nav {
+  /* .footerback-nav li,
+  .footberback-nav a { */
+    visibility: visible;
+    float: right;
+    /* padding: 5px 8px;
+    display: inline-block;
+    text-decoration: none;
+    background-color: #F8F8F8;
+    color: black;
+    margin: 0;
+    text-transform: uppercase;
+    font-weight: bold; */
+    }
+
   .footerback-nav li,
   .footberback-nav a {
     visibility: visible;
     float: right;
     padding: 5px 8px;
-    display: inline-block;
+    display: block;
     text-decoration: none;
     /* background-color: #F8F8F8; */
     color: black;
     margin: 0;
     text-transform: uppercase;
-    font-weight: bold;
+    font-weight: bold; */
     }
 
+    /* .footberback-nav a {
+    visibility: visible;
+    float: right;
+    padding: 5px 8px;
+    display: block;
+    text-decoration: none;
+    background-color: #F8F8F8;
+    color: black;
+    margin: 0;
+    text-transform: uppercase;
+    font-weight: bold;
+    } */
   /* .main img {
     width: 40%;
   } */
@@ -409,13 +434,17 @@ footer {
 }
 
 @media (min-width: 1024px) {
-
-  /* .name,
+/* 
+  .name,
   .nav,
   .nav li {
       display: inline-block;
       text-decoration: none;
   } */
+
+ body {
+    background-color: #F8F8F8;
+  }
 
   .name a,
   .nav a {
@@ -428,13 +457,64 @@ footer {
   font-weight: bold;
 }
 
-
     /* .name,
     .nav,
     .nav li {
         display: inline-block;
         text-decoration: none;
     } */
+
+    /* .group {
+
+    } */
+
+    .port-head {
+      width: 90%;
+      margin: auto;
+    }
+
+
+    .main {
+      width: 99%;
+      margin: auto;
+      background-color: white;
+      padding-left: 5px;
+      padding-right: 5px;
+    }
+  
+    .main-left,
+    .main-right {
+      float: none;
+      width: 100%;
+    }
+
+    .large-left,
+    .large-right,
+    .large-center {
+      font-size: 1.1em;
+      line-height: 1.1em;
+      width: 31%;
+    }
+  
+    .large-left img,
+    .large-right img,
+    .large-center img {
+      margin-top: 31%;
+    }
+  
+    .large-left {
+      float: left;
+      margin-left: 15px;
+    }
+  
+    .large-right {
+      float: right;
+      margin-right: 15px;
+    }
+
+    .large-center {
+      margin: auto;
+    }
 
 }
 
