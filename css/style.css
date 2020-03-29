@@ -39,8 +39,6 @@ hr {
 
 footer {
   display: inline-block;
-  padding-top: 20px;
-  padding-bottom: 20px;
 }
 
 /* img {
@@ -124,7 +122,6 @@ footer {
     text-align: center;
     color: #50404d;
     line-height: 1.2em;
-    padding-bottom: 20px;
     /* margin: auto; */
     /* display: inline; */
 }
@@ -133,6 +130,8 @@ footer {
   padding-top: 10px;
   padding-left: 25px;
   padding-right: 25px;
+  margin-bottom: 0px;
+  padding-bottom: 15px;
   background: linear-gradient(#c7c7bf, transparent 99%),
   #c9e0dd;
 }
@@ -143,11 +142,12 @@ footer {
 
 .port-head {
   font-weight: bolder;
+  /* font-size: 1.3em; */
   /* margin-top: 5px; */
-  padding-top: 40px;
-  padding-bottom: 25px;
-  margin: auto; */
-  line-height: 10em;
+  padding-top: 5px;
+  padding-bottom: 15px;
+  margin: auto;
+  line-height: 1em;
 }
 
 /* .portfolio-container {
@@ -162,19 +162,21 @@ footer {
 
 .contact {
   color: #50404d;
-  background: linear-gradient(#c9e0dd, transparent 99%),
-  ##c7c7bf;
-  font-size: 1.1em;
+  background: linear-gradient(#c9e0dd, transparent 99.9%),
+  #c7c7bf;
+  font-size: 1.05em;
   line-height: 1.2em;
   margin-bottom: 0;
   padding: 12px 20px 12px 20px;
-  margin-top: 5px;
+  /* margin-top: 5px; */
   text-align: center;
   /* border-bottom: 1px solid grey; */
 }
 
 .callme {
   padding-bottom: 10px;
+  width: 90%;
+  margin: auto;
 }
 
 /* ---- Page Elements ---- */
@@ -197,6 +199,7 @@ footer {
   padding-left: 30px;
   padding-right: 30px;
   padding-bottom: 12px;
+  padding-top: 20px;
   /* padding-top: 25px; */
 }
 
