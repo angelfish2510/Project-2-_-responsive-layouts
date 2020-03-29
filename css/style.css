@@ -160,6 +160,8 @@ footer {
 
 .contact {
   color: #50404d;
+  background: linear-gradient(#c9e0dd, transparent 99%),
+  ##c7c7bf;
   font-size: 1.1em;
   line-height: 1.2em;
   margin-bottom: 0;
