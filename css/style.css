@@ -118,8 +118,8 @@ footer {
 /* ---- Layout Containers ---- */
 
 .intro {
-    background: linear-gradient(#c7c7bf, transparent 99%),
-    #c9e0dd;
+    /* background: linear-gradient(#c7c7bf, transparent 99%),
+    #c9e0dd; */
     margin-top: 0;
     text-align: center;
     color: #50404d;
@@ -133,6 +133,8 @@ footer {
   padding-top: 10px;
   padding-left: 25px;
   padding-right: 25px;
+  background: linear-gradient(#c7c7bf, transparent 99%),
+  #c9e0dd;
 }
 
 .container {
