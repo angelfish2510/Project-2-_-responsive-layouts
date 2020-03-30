@@ -502,7 +502,7 @@ footer {
 @media (min-width: 1024px) {
 
   body {
-    background-color: #F8F8F8;
+    background-color: #c7c7bf;
   }
 
   .main-header {
@@ -554,14 +554,17 @@ footer {
 
   .intro {
     padding-top: 30px;
-    padding-bottom: 60px;
-    margin-left: 20px;
-    margin-right: 20px;
+    /* padding-bottom: 60px; */
+    margin-left: 10px;
+    margin-right: 10px;
     display: inline-block;
+    border-left: 10px solid #c7c7bf;
+    border-right: 10px solid #c7c7bf;
   }
 
   .intro p {
     padding-right: 48px;
+    padding-bottom: 150px;
     /* margin-top: 10px; */
     text-align: left;
     line-height: 1.15em;
@@ -583,14 +586,15 @@ footer {
     margin-right: 1em; */
   }
 
-  /* .port-head {
-    width: 90%;
-    margin: auto;
-  } */
+  .port-head {
+    margin-top: 0px;
+    padding-top: 30px;
+  }
 
 
   .main {
     margin: auto;
+    padding-top: 0px;
     padding-left: 35px;
     padding-bottom: 50px;
   }
@@ -637,6 +641,11 @@ footer {
   /* .travel {
     clear: both;
   } */
+  
+  .contact {
+    border-left: 20px solid #c7c7bf;
+    border-right: 20px solid #c7c7bf;
+  }
   
   .callme {
     width: 63%;
